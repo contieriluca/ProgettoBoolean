@@ -1,0 +1,81 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+body{
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 25px;
+  padding: 50px;
+  width: 1100px;
+  margin: auto;
+}
+
+#logo{
+  display: block;
+  margin: auto;
+  height: 100px;
+}
+
+header > h1 {
+  color: #00ff00;
+  text-align: center;
+}
+
+.navigation{
+  background-color: #00ff00;
+  text-align: center;
+  padding: 10px;
+}
+
+.monopattini{
+  display: inline-block;
+  color: white;
+  margin: 0px;
+  margin-top: 20px
+
+}
+
+section > p{
+  margin: 0px;
+}
+
+section > p,div {
+  color: white;
+  font-size: 24px;
+}
+
+section > div{
+  font-size: 18px;
+}
+
+#caricagino{
+  width: 400px;
+  height: 35px;
+  background-color: orange;
+  border-radius: 8px;
+  margin-top: 5px;
+
+}
+
+#caricamike{
+  width: 750px;
+  height: 35px;
+  background-color: darkgreen;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+#caricafede{
+  width: 150px;
+  height: 35px;
+  background-color: red;
+  border-radius: 8px;
+  margin-top: 5px;
+}
